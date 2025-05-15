@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface KdigitalRepository extends JpaRepository <Kdigital, String>{
+public interface KdigitalRepository extends JpaRepository <Kdigital, Long>{
     //기본적인 findAll(), save(), delete()등 자동 생성됨
 }
